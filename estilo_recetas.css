@@ -1,0 +1,138 @@
+html{
+	background-color: #F5F5DC;
+}
+
+#titulo_sitio{   /* 1 */
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: 5px 5px 5px #bc8609;
+
+}
+
+body{
+	background-image: url(dinner_plate.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*background-color: transparent;*/
+	background-size: 60%;
+
+
+}
+
+
+#resumenes{
+	display: inline-block;
+	height: 180px;
+	margin: 5% 10%;
+}
+
+[class^="receta"]{
+	position: absolute;
+	border-radius: 25px;    /* 3a */
+	margin: 10px;      /* 3g */
+	border: 2pt solid #DC143C;
+	padding: 10px;
+	width: 170px;
+	/*height: 20%;*/
+	display: inline-block;
+}
+
+.receta1{   /* 3b */
+	background-image: url("http://recetas.eluniverso.com/wp-content/media/ceviche-de-camaron-con-mango.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 100%;
+	background-color: transparent;*/
+}
+
+.receta2{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/morocho1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	right: 150px;
+}
+
+
+.receta3{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/12.-CARNEMECHADA.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	right: 380px;
+}
+
+.receta4{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/caldo-de-pata.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	right: 600px;
+}
+
+.receta5{
+	background-image: url('http://recetas.eluniverso.com/wp-content/media/corviche.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	right: 830px;
+}
+
+h3 a{    /* 3c */
+	font-variant: small-caps;
+}
+
+h4{      /* 3d */
+	color: #d69f2a;
+}
+
+#descripcion{  /*  3e */
+	font-size: 10px;
+	text-align: justify;
+}
+
+p{
+	text-align: justify;
+	
+}
+
+p[class^="descripcion_completa"], audio{
+	position: relative;
+	right: -30px;
+}
+
+h3 a:visited{
+	color: #7c652e;
+}
+
+div header{
+	height: 80px;
+	display: inline-block;
+}
+
+div div[id^="cat"]{
+	height: 90px;
+}
+
+
+
+#detalles{
+	margin: 8% 22%;
+
+}
+
+figure, #detalle{
+	display: inline-block;
+	margin: 10px
+}
+
+#detalle{
+	width: 60%;
+
+}
+
+
+
+div[class^="completa"]{
+	border-bottom: 5px solid #DEB887;
+	margin: 10px 0;
+}
