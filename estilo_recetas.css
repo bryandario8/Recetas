@@ -22,59 +22,57 @@ body{
 
 #resumenes{
 	display: inline-block;
-	height: 180px;
-	margin: 5% 10%;
+	height: 260px;
+	margin: 2% 1%;
 }
 
-[class^="receta"]{
-	position: absolute;
+[class*="receta"]{
+	/*position: absolute;*/
 	border-radius: 25px;    /* 3a */
-	margin: 10px;      /* 3g */
+	margin: 1% 2%;      /* 3g */
 	border: 2pt solid #DC143C;
-	padding: 10px;
-	width: 170px;
+	padding: 1.5%;
+	width: 12%;
+	max-height: 100%;
 	/*height: 20%;*/
 	display: inline-block;
+	vertical-align: top;
 }
 
 .receta1{   /* 3b */
 	background-image: url("http://recetas.eluniverso.com/wp-content/media/ceviche-de-camaron-con-mango.jpg");
 	background-repeat: no-repeat;
-	/*background-size: 100%;
-	background-color: transparent;*/
+	background-size: 420px;
 }
 
 .receta2{
 	background-image: url('http://recetas.eluniverso.com/wp-content/media/morocho1.jpg');
-	background-size: 100%;
+	background-size: 420px;
 	background-repeat: no-repeat;
-
-	right: 150px;
+	/*right: 150px;*/
 }
 
 
 .receta3{
 	background-image: url('http://recetas.eluniverso.com/wp-content/media/12.-CARNEMECHADA.jpg');
-	background-size: 100%;
+	background-size: 540px;
 	background-repeat: no-repeat;
-
-	right: 380px;
+	/*right: 380px;*/
 }
 
 .receta4{
 	background-image: url('http://recetas.eluniverso.com/wp-content/media/caldo-de-pata.jpg');
-	background-size: 100%;
+	background-size: 420px;
 	background-repeat: no-repeat;
-
-	right: 600px;
+	/*right: 600px;*/
 }
 
 .receta5{
 	background-image: url('http://recetas.eluniverso.com/wp-content/media/corviche.jpg');
-	background-size: 100%;
+	background-size: 420px;
 	background-repeat: no-repeat;
 
-	right: 830px;
+	/*right: 830px;*/
 }
 
 h3 a{    /* 3c */
@@ -92,12 +90,13 @@ h4{      /* 3d */
 
 p{
 	text-align: justify;
-	
+
 }
 
 p[class^="descripcion_completa"], audio{
 	position: relative;
 	right: -30px;
+
 }
 
 h3 a:visited{
@@ -116,7 +115,7 @@ div div[id^="cat"]{
 
 
 #detalles{
-	margin: 8% 22%;
+	margin: 2% 22%;
 
 }
 
