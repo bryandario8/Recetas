@@ -5,7 +5,7 @@ html{
 #titulo_sitio{   /* 1 */
 	font-size: 4em;
 	color: #d39a0a;
-	text-shadow: 5px 5px 5px #bc8609;
+	text-shadow: 3px 2px 2px #bc8609;
 
 }
 
@@ -103,6 +103,11 @@ h3 a:visited{
 	color: #7c652e;
 }
 
+h3 a:hover{
+	text-decoration: none;
+	color: #edc163;
+}
+
 div header{
 	height: 80px;
 	display: inline-block;
@@ -115,7 +120,7 @@ div div[id^="cat"]{
 
 
 #detalles{
-	margin: 2% 22%;
+	margin: 4% 22%;
 
 }
 
@@ -134,4 +139,9 @@ figure, #detalle{
 div[class^="completa"]{
 	border-bottom: 5px solid #DEB887;
 	margin: 10px 0;
+}
+
+[class*="receta"]:hover{
+	/*background:*/ 
+	opacity: 0.7;
 }
